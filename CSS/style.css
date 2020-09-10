@@ -38,6 +38,11 @@
     padding-top: 15%;
     justify-content: center;
 }
+
+.container-fluid-footer {
+    background: black ;
+}
+
 .body-text2 {
     color: #202020;
     font-weight: 200;
@@ -235,17 +240,20 @@ h2 {
 
 h3 {
     color: black;
-
+    padding-bottom: 30px;
+    
 
 }
 
 h4 {
     line-height: 1.375em;
     color: black
-    font-weight: 200;
+    font-weight 200px;
     margin-bottom: 30px;
-  }  
-h5 {
+    padding-right: 75px;
+}  
+
+  h5 {
     color: #303030;
     
 }
@@ -258,6 +266,7 @@ a {
 
 p {
     color: black;
+    padding-right: 50px;
 }
 .img-thumbnail {
     width: 200px;
