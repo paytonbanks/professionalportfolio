@@ -1,0 +1,299 @@
+
+
+.col-md-7, .card-img-top {
+    flex-wrap: wrap;
+}
+
+.card-body {
+    align-content: center;
+}
+
+.head-1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+}  
+
+.head-2 {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: black;
+    line-height: 60px;
+    padding-bottom: 20px;
+    
+}  
+
+.head-3 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: black;
+}  
+
+.container-fluid {
+    max-width: 80%;
+    position: relative;
+    min-height: 100vh;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15%;
+    justify-content: center;
+}
+.body-text2 {
+    color: #202020;
+    font-weight: 200;
+    line-height: 35px;
+}  
+
+.body-text3 {
+    color: #808080;
+    font-weight:  300;
+    font-size: 18px;
+    line-height: 30px;
+}  
+
+.cardTitle {
+    text-align: center;
+}
+
+.resumeIcon {
+    height: 50px;
+    width: 50px;
+    align-content: center;
+}
+
+.card-img-top {
+    align-content: center;
+}
+/* .row {
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.row {
+    justify-content: left;
+    padding-top: 50px;
+} */
+
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+
+
+
+
+body {
+   background-color: white;
+    /* background: url('https://image.freepik.com/free-photo/dark-grunge-texture_1048-4055.jpg?1') no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+.rounded-circle {
+    width: 50px;
+}
+
+.navbar {
+    
+    background: #383838;
+    width: 100%; 
+}
+.menuicon {
+    width: 50px;
+    image-rendering: optimizeSpeed;
+}
+.nav-item {
+    color: rgb(8, 109, 232);
+    text-transform: lowercase;
+    font-style: italic;
+}
+.itemText {
+    color: dodgerblue;
+}
+
+.fa { 
+    width: 20px;
+    height: 30px;
+}
+ 
+.dropdown-menu {
+    background-color: transparent;
+
+}
+
+.fa-html5 {
+    color: coral;
+}
+
+.fa-css3-alt {
+    color: rgb(26, 56, 189);
+}
+
+.fa-js{
+    color: yellow;
+}
+
+.container {
+    padding-top: 120px;
+}
+
+.head-title {
+    color: white;
+    text-transform: uppercase;
+}
+.head-subtitle {
+    color: white;
+    text-transform: white;
+
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;   
+}
+
+.head-text {
+    font-family: helvetica;
+    font-size: 36px;
+}
+
+.nav-link .menuicon {
+    width:40px;
+    height: 40px;
+}
+.contact-icon {
+    width: 35px;
+    height: 25px;
+    align-items: baseline;
+    padding-right: 10px;
+    line-height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.itemphoto {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    line-height: 10px;
+    image-rendering: optimizeSpeed;
+}
+
+.pageHeader {
+    color: black;
+    padding-bottom: 50px;
+
+
+}
+.portfolio {
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav-link .menuicon {
+    width:25px;
+    height:25px;
+    padding: 5px;
+  }
+p {
+    font-family: helvetica;
+    font-size: 16px;
+    color: #303030;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.col-md-7 {
+    padding-right: 35px;
+}
+
+.card-title {
+    color: black;
+    text-align: center;
+}
+
+.card-title-portfolio {
+    color: black;
+    text-align: center;
+
+
+}
+h2 {
+    padding-top: 15px;
+    color: black
+    
+}
+
+h3 {
+    color: black;
+
+
+}
+
+h4 {
+    line-height: 1.375em;
+    color: black
+    font-weight: 200;
+    margin-bottom: 30px;
+  }  
+h5 {
+    color: #303030;
+    
+}
+a {
+    color: #D3D3D3;
+
+}
+
+
+
+p {
+    color: black;
+}
+.img-thumbnail {
+    width: 200px;
+    height: 200px;
+}
+.page-footer {
+    background-color: transparent;
+    height: 200px;
+
+}
+.social-icons {
+    width: 35px;
+    height: 35px;
+}
+.port-titles {
+    color: white;   
+}
+
+.container-map {
+    align-content: center;
+    text-align: center;
+}
+
+.card {
+    height: 400px;
+    margin-left: 30px;
+    border: 0px;
+}
+/* Revaeal Controls */
+.item {
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+    border-top: 1px solid transparent;
+    transform: scale(0);
+    transition: all 400ms;
+}
+
+.in-view { background-color: transparent; transform: scale(1); }
